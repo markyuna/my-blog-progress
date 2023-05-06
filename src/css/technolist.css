@@ -3,3 +3,16 @@
   padding: 30px;
   text-align: center;
 }
+
+.card {
+  background-color: black;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #eaeaea;
+  border-radius: 15px;
+  transition: color 1s ease, border-color 1s ease;
+  max-width: 300px;
+}

@@ -1,5 +1,9 @@
 .techno-add {
-  padding: 20px;
+  color: #ccc;
+  max-width: 640px;
+  background: #000;
+  padding-bottom: var(--takeover-padding-bottom);
+  transition: 1s ease;
 }
 
 .btn {

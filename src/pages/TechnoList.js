@@ -5,7 +5,7 @@ export default function TechnoList(props) {
     const { technos, handleDeleteTechno } = props;
   return (
     <div className="techno-list">
-      <h1>All Technos</h1>
+      <h1>Display all posts</h1>
       <div>
         {technos.map((techno) => (
           <TechnoItem

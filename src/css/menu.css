@@ -13,11 +13,17 @@ ul{
 
 a{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bolder;
 }
 
 .activeLink{
   font-weight: bolder;
   color: rgb(17, 128, 128);
+}
+
+/* Input text */
+.input-text {
+  @layer mt-1 block w-60 px-3 py-2 bg-white border border-slate-300 rounded-full text-sm shadow-sm placeholder-slate-500;
+  @layer focus:border-sky-500;
 }

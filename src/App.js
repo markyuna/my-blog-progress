@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import TechnoAdd from "./pages/TechnoAdd";
 import TechnoList from "./pages/TechnoList";
 import { useLocalStorage } from "./hooks/useLocalStorage";
+// import { Header } from "./components/header"; // Importamos el componente Header
 
 function App() {
   const STORAGE_KEY = "technos";
@@ -37,8 +38,9 @@ function App() {
     );
   }
 
-  return (
-    <>
+  return(
+
+    <> {/* Agregamos el componente Header aquí */}
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
