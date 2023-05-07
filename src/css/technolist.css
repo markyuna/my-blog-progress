@@ -5,14 +5,16 @@
 }
 
 .card {
-  background-color: black;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
   margin: 1rem;
   padding: 1.5rem;
-  text-align: left;
+  text-align:justify;
   color: white;
   text-decoration: none;
   border: 2px solid #eaeaea;
   border-radius: 15px;
   transition: color 1s ease, border-color 1s ease;
-  max-width: 300px;
+  /* max-width: 400px; */
 }

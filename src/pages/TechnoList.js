@@ -4,9 +4,9 @@ import TechnoItem from "../components/TechnoItem";
 export default function TechnoList(props) {
     const { technos, handleDeleteTechno } = props;
   return (
-    <div className="techno-list">
+    <div className="card wrap">
       <h1>Display all posts</h1>
-      <div>
+      <div className="techno-list">
         {technos.map((techno) => (
           <TechnoItem
             key={techno.technoid}
