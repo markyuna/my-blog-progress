@@ -1,12 +1,12 @@
-.techno-list {
+/* .techno-list {
   background-color: yellow-200;
   padding: 30px;
   text-align: center;
-}
+} */
 
 .card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: transparent;
   margin: 1rem;
   padding: 1.5rem;
@@ -16,5 +16,5 @@
   border: 2px solid #eaeaea;
   border-radius: 15px;
   transition: color 1s ease, border-color 1s ease;
-  /* max-width: 400px; */
+  max-width: 390px;
 }
